@@ -1,0 +1,561 @@
+.footer-social a img {
+	width: 25px;
+	height: auto;
+	margin: 5px;
+}
+
+
+.slicknav_menu .slicknav_menutxt {
+	display: none;
+}
+.slicknav_menu .slicknav_icon {
+	float: none;
+	margin: 0;
+}
+
+.slicknav_menu {
+	background: #fff;
+}
+
+.slicknav_nav a {
+	color: #333;
+}
+.slicknav_btn {
+	background-color: #666;
+	margin-right:150px;
+}
+
+.elementorfull img{
+	width: 100%;
+}
+/* Slider */
+.fullwidthbanner-container {
+	position: relative;
+	overflow: hidden!important;
+}
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+/*@media only screen and (min-width: 1250px) and (max-width: 3250px) {*/
+@media only screen and (min-width: 1281px){
+.slicknav_menu {
+	display:none;
+}
+
+.main-menu ul li a {
+	font-family: OpenSans-Semibold;
+	font-size: 0.85vw;
+	text-transform: uppercase;
+	padding: 20px 6px;
+	color: #5b5b5b;
+}
+.phone-number p {
+	padding: 36px 0;
+	/* text-align: center; */
+	font-size: 11pt;
+	text-align: left;
+}
+.footer-menu ul li a {
+	font-size: 11pt;
+	padding: 5px 10px;
+}
+
+.mcwl-sub-menu{
+	position:relative;
+	
+}
+.mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+	color:#b85454;;
+}
+.mcwl-sub-menu:hover ul li a{
+	color:#fff;
+}
+
+.mcwl-sub-menu ul{
+	z-index:9999;
+	margin-left:-8px;
+	position:absolute;
+	margin-top:20px;
+	/*background-color:#b85454;*/
+	background-color:#fff;
+	padding:5px 5px 20px 5px;
+	visibility:hidden;
+	opacity:0;
+	
+}
+.mcwl-sub-menu ul li{
+	border-right:none;
+	padding:0px 10px;
+}
+.mcwl-sub-menu ul li a{
+	/*color:#fff;*/
+	color:#333!important;
+	text-align:left;
+	padding:3px 15px!important;
+	width:200px;
+	display:block;
+	border-bottom:1px solid #333;
+	font-size:10pt!important;
+}
+.mcwl-sub-menu .mcwl-sub-menu ul{
+	margin-left:166px;
+	margin-top:-33px;
+	visibility:hidden;
+	opacity:0;
+}
+.mcwl-sub-menu .mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu ul{
+	margin-left:166px;
+	margin-top:-33px;
+	visibility:hidden;
+	opacity:0;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu ul{
+	margin-left:166px;
+	margin-top:-33px;
+	visibility:hidden;
+	opacity:0;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu ul{
+	margin-left:166px;
+	margin-top:-33px;
+	visibility:hidden;
+	opacity:0;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+}
+
+
+}
+/*		laptop Layout: 992-1250px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+	.slicknav_menu {
+	display:none;
+}
+	.main-menu ul li a {
+	font-size: 10pt;
+}
+.phone-number {
+	padding: 21px 0;
+}
+.menu-area {
+	padding: 18px 0;
+}
+.main-menu {
+	padding: 0px 0px;
+}
+.main-menu ul li a {
+	font-family: OpenSans-Semibold;
+	font-size: 0.85vw;
+	text-transform: uppercase;
+	padding: 20px 6px;
+	color: #5b5b5b;
+}
+.phone-number p {
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 8pt;
+}
+.phone-number p::before {
+	content: "";
+	background-repeat: no-repeat;
+	height: 18px;
+	width: 18px;
+	display: block;
+	float: left;
+	background-size: contain;
+}
+.footer-menu ul li a {
+	font-size: 9pt;
+	padding: 5px 10px;
+}
+
+
+.mcwl-sub-menu{
+	position:relative;
+	
+}
+.mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+	color:#b85454;;
+}
+.mcwl-sub-menu:hover ul li a{
+	color:#fff;
+}
+
+.mcwl-sub-menu ul{
+	z-index:9999;
+	margin-left:-8px;
+	position:absolute;
+	margin-top:20px;
+	/*background-color:#b85454;*/
+	background-color:#fff;
+	padding:5px 5px 20px 5px;
+	visibility:hidden;
+	opacity:0;
+	
+}
+.mcwl-sub-menu ul li{
+	border-right:none;
+	padding:0px 10px;
+}
+.mcwl-sub-menu ul li a{
+	/*color:#fff;*/
+	color:#333!important;
+	text-align:left;
+	padding:3px 15px!important;
+	width:200px;
+	display:block;
+	border-bottom:1px solid #333;
+	font-size:10pt!important;
+}
+.mcwl-sub-menu .mcwl-sub-menu ul{
+	margin-left:166px;
+	margin-top:-33px;
+	visibility:hidden;
+	opacity:0;
+}
+.mcwl-sub-menu .mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu ul{
+	margin-left:166px;
+	margin-top:-33px;
+	visibility:hidden;
+	opacity:0;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu ul{
+	margin-left:166px;
+	margin-top:-33px;
+	visibility:hidden;
+	opacity:0;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu ul{
+	margin-left:166px;
+	margin-top:-33px;
+	visibility:hidden;
+	opacity:0;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+}
+
+
+}
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.col-md-2 {
+	padding: 0;
+}
+	.slicknav_menu {
+	display:none;
+}
+	.logo-area {
+	padding: 15px 5px;
+	text-align: left;
+}
+	.main-menu ul {
+	padding: 15px 0px;
+}
+	.main-menu ul li a {
+	font-size: 10pt;
+}
+.main-menu ul {
+	padding: 15px 0px;
+}
+.main-menu {
+	padding: 0px 0px;
+}
+.main-menu ul li a {
+	font-family: OpenSans-Semibold;
+	font-size: 0.85vw;
+	text-transform: uppercase;
+	padding: 10px 3px;
+	color: #5b5b5b;
+}
+.phone-number p {
+	padding: 22px 0;
+	text-align: center;
+	font-size: 7pt;
+}
+.phone-number p::before {
+	content: "";
+	background-repeat: no-repeat;
+	height: 18px;
+	width: 18px;
+	display: block;
+	float: left;
+	background-size: contain;
+}	
+.footer-menu ul li a {
+	font-size: 7pt;
+	padding: 5px 10px;
+}
+
+.mcwl-sub-menu{
+	position:relative;
+	
+}
+.mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+	color:#b85454;;
+}
+.mcwl-sub-menu:hover ul li a{
+	color:#fff;
+}
+
+.mcwl-sub-menu ul{
+	z-index:9999;
+	margin-left:-8px;
+	position:absolute;
+	margin-top:20px;
+	/*background-color:#b85454;*/
+	background-color:#fff;
+	padding:5px 5px 20px 5px;
+	visibility:hidden;
+	opacity:0;
+	
+}
+.mcwl-sub-menu ul li{
+	border-right:none;
+	padding:0px 10px;
+}
+.mcwl-sub-menu ul li a{
+	/*color:#fff;*/
+	color:#333!important;
+	text-align:left;
+	padding:3px 15px!important;
+	width:200px;
+	display:block;
+	border-bottom:1px solid #333;
+	font-size:10pt!important;
+}
+.mcwl-sub-menu .mcwl-sub-menu ul{
+	margin-left:166px;
+	margin-top:-33px;
+	visibility:hidden;
+	opacity:0;
+}
+.mcwl-sub-menu .mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu ul{
+	margin-left:166px;
+	margin-top:-33px;
+	visibility:hidden;
+	opacity:0;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu ul{
+	margin-left:166px;
+	margin-top:-33px;
+	visibility:hidden;
+	opacity:0;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu ul{
+	margin-left:166px;
+	margin-top:-33px;
+	visibility:hidden;
+	opacity:0;
+}
+.mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu .mcwl-sub-menu:hover ul{
+	visibility:visible;
+	opacity:1;
+	transition:1s;
+}
+
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+		.js #menu {
+		display:none;
+	}
+	
+.js .slicknav_menu {
+	display: block;
+	float: left;
+	position: absolute;
+	z-index: 999;
+}
+
+.logo-area {
+	text-align: center;
+}
+.logo-area a img {
+	width: 90%;
+	position: absolute;
+	display: block;
+	z-index: 222;
+	margin-top:12px;
+}
+#rev_slider_1_1_wrapper{
+	margin-top:10%!important;
+}
+	.phone-number p {
+	padding: 10px 10px;
+	text-align:center;
+}
+.main-menu {
+	padding: 0px 0px;
+}
+.footer-menu ul li a {
+	font-size: 7pt;
+	padding: 5px 10px;
+}
+.phone-number{
+	display:none;
+}
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.js #menu {
+		display:none;
+	}
+	
+.js .slicknav_menu {
+	display: block;
+	float: left;
+	position: absolute;
+	z-index: 999;
+}
+
+.logo-area {
+	text-align: center;
+}
+.logo-area a img {
+	width: 90%;
+	position: absolute;
+	display: block;
+	z-index: 222;
+	margin-top:12px;
+}
+#rev_slider_1_1_wrapper{
+	margin-top:15%!important;
+}
+	.phone-number p {
+	padding: 10px 10px;
+	text-align:center;
+}
+.main-menu {
+	padding: 0px 0px;
+}
+.footer-menu ul li a {
+	font-size: 7pt;
+	padding: 5px 10px;
+}
+.phone-number{
+	display:none;
+}
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
+
+
+

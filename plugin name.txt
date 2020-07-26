@@ -1,0 +1,4 @@
+== Useful Links ==
+* [Demo Site](https://wp-post-modal.allureprojects.com/)
+* [Contact us for feedback and bug reports](https://allurewebsolutions.com/contact)
+* [Guidelines for submitting a support request](https://allurewebsolutions.com/open-wordpress-post-modal-without-plugin#support)
